@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Stock Analyzer 1",
+    "version": "0.1.0",
+    "debug": false
+  },
+  "market": {
+    "update_interval": 5,
+    "symbols_count": 100,
+    "timeframes": ["1m", "5m", "15m", "1h", "1d", "1w", "1M"]
+  },
+  "ui": {
+    "window_width": 1600,
+    "window_height": 900,
+    "theme": "dark"
+  },
+  "indicators": {
+    "rsi": {
+      "period": 14
+    },
+    "macd": {
+      "fast": 12,
+      "slow": 26,
+      "signal": 9
+    },
+    "bollinger_bands": {
+      "period": 20,
+      "std": 2
+    }
+  }
+}
